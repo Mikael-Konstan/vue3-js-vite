@@ -1,0 +1,50 @@
+.ulStyle {
+	li {
+		display: flex;
+		text-align: left;
+		font-size: 20px;
+		font-weight: 600;
+		height: 40px;
+		line-height: 40px;
+
+		p {
+			flex: 1;
+		}
+
+		P:first-child {
+			font-size: 24px;
+			min-width: 200px;
+			max-width: 280px;
+			text-align: center;
+			color: red;
+		}
+
+		p:last-child {
+			flex: 3;
+		}
+	}
+}
+
+.dlStyle {
+	text-align: left;
+
+	dt {
+		color: #ff4400;
+		font-weight: 600;
+		font-size: 26px;
+		margin-bottom: 10px;
+	}
+
+	dd {
+		padding-left: 36px;
+		color: #ff4400;
+		font-weight: 600;
+		font-size: 20px;
+	}
+}
+
+
+
+
+
+// background-color: #001528;  划上67 74 80    底色84, 92, 100   子元素76, 88, 81

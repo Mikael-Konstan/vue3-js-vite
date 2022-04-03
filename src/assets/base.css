@@ -1,0 +1,196 @@
+	/* css reset css初始化代码 */
+	
+	html,
+	body {
+	    width: 100%;
+	    height: 100%;
+	}
+	
+	body {
+	    margin: 0;
+	    padding: 0;
+	    font: 12px/1.5 "微软雅黑", \5b8b\4f53, Arial, sans-serif;
+	    color: #3b3b3b;
+	}
+	
+	div,
+	p,
+	ul,
+	ol,
+	li,
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6,
+	input,
+	form,
+	pre,
+	fieldset,
+	textarea,
+	blockquote,
+	button {
+	    padding: 0;
+	    margin: 0;
+	}
+	
+	table,
+	td,
+	tr,
+	th {
+	    font-size: 12px;
+	}
+	
+	ol,
+	ul {
+	    list-style: none;
+	}
+	
+	li {
+	    list-style-type: none;
+	}
+	
+	img {
+	    vertical-align: top;
+	    border: 0;
+	}
+	
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+	    font-size: inherit;
+	    font-weight: normal;
+	}
+	
+	address,
+	cite,
+	code,
+	em,
+	th,
+	i {
+	    font-weight: normal;
+	    font-style: normal;
+	}
+	
+	.clearfix {
+	    *zoom: 1;
+	}
+	
+	.clearfix:after {
+	    display: block;
+	    overflow: hidden;
+	    clear: both;
+	    height: 0;
+	    visibility: hidden;
+	    content: ".";
+	}
+	
+	a {
+	    text-decoration: none;
+	}
+	/*原本的样式*/
+	
+	a:visited {
+	    text-decoration: none;
+	}
+	/*已经访问过的*/
+	
+	a:hover {
+	    color: #ba2636;
+	    text-decoration: underline;
+	}
+	/*经过时*/
+	
+	a:active {
+	    color: #ba2636;
+	}
+	/*按下鼠标没有房开始   比较常用*/
+	/* css reset css初始化代码 */
+	
+	body {
+	    margin: 0;
+	    padding: 0;
+	    font: 12px/1.5 "微软雅黑", \5b8b\4f53, Arial, sans-serif;
+	    color: #3b3b3b;
+	}
+	
+	table,
+	td,
+	tr,
+	th {
+	    font-size: 12px;
+	}
+	
+	ol,
+	ul {
+	    list-style: none;
+	}
+	
+	li {
+	    list-style-type: none;
+	}
+	
+	img {
+	    vertical-align: top;
+	    border: 0;
+	}
+	
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+	    font-size: inherit;
+	    font-weight: normal;
+	}
+	
+	address,
+	cite,
+	code,
+	em,
+	th,
+	i {
+	    font-weight: normal;
+	    font-style: normal;
+	}
+	
+	.clearfix {
+	    *zoom: 1;
+	}
+	
+	.clearfix:after {
+	    display: block;
+	    overflow: hidden;
+	    clear: both;
+	    height: 0;
+	    visibility: hidden;
+	    content: ".";
+	}
+	
+	a {
+	    color: #252525;
+	    text-decoration: none;
+	}
+	/*原本的样式*/
+	
+	a:visited {
+	    text-decoration: none;
+	}
+	/*已经访问过的*/
+	
+	a:hover {
+	    color: #ba2636;
+	    text-decoration: underline;
+	    cursor: pointer
+	}
+	/*经过时*/
+	
+	a:active {
+	    color: #ba2636;
+	}
+	/*按下鼠标没有房开始   比较常用*/

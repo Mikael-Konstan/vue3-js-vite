@@ -1,0 +1,10 @@
+{
+    "vetur.format.options.tabSize": 4,
+    "html.format.indentInnerHtml": true,
+    "html.format.indentHandlebars": true,
+    "html.format.wrapAttributesIndentSize": 4,
+    "prettier.vueIndentScriptAndStyle": true,
+    "vetur.format.options.useTabs": true,
+    "vetur.format.scriptInitialIndent": true,
+    "vetur.format.styleInitialIndent": true
+}
