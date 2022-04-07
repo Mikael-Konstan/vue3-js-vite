@@ -8,11 +8,8 @@ import 'element-plus/lib/theme-chalk/index.css'
 import './assets/base.css'
 import './assets/public.scss'
 
-let app = createApp(App)
+const app = createApp(App)
 app.use(router)
 app.use(store)
 app.use(elementPlus)
-
-router.isReady().then(() => {
-    app.mount('#app')
-})
+app.mount('#app')

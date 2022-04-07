@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<button v-on:click="login">login</button>
+		<el-button type="primary" @click="login">login</el-button>
 	</div>
 </template>
 <script>
@@ -10,9 +10,6 @@
 		data () {
 			return {
 			}
-        },
-        mounted() {
-            const logo = require('./../../assets/logo.png')
         },
 		methods: {
 			login () {

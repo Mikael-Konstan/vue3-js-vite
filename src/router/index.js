@@ -6,7 +6,7 @@ const syncRoutes = [
         path: '/',
         name: 'layout',
         component: layout,
-        redirect: '/dashboard',
+        redirect: '/login',
     },
     {
         path: '/login',
@@ -132,6 +132,7 @@ const syncRoutes = [
 const asyncRoutes = []
 
 const routes = syncRoutes.concat(asyncRoutes)
+// 创建路由 使用了es6的对象增强写法，命名必须是routes
 const router = createRouter({
     history: createWebHashHistory(),
     routes,
