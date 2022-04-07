@@ -41,7 +41,7 @@ export default {
   name: "dashboard",
   data() {
     return {
-      rootPath: "D:/work/20220331_test/asset/erp",
+      rootPath: "D:/work/20220407_test_hzz/asset/erp",
       rootPathCur: "",
       treeData: [],
       defaultProps: {
